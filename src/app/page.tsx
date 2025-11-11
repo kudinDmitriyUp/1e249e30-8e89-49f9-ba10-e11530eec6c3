@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -7,7 +7,7 @@ import TagAbout from '@/components/sections/about/TagAbout';
 import FeatureCardOne from '@/components/sections/feature/FeatureCardOne';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
-import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
+import MetricCardTwo from '@/components/sections/metric/MetricCardTwo';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
@@ -30,7 +30,7 @@ export default function Home() {
     >
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal
-          logoSrc="https://pixabay.com/get/g7df41429df56b066e902d66a015d5ac317001d85ddcd82898aa6b48cc8d28be9798ff5c64d0d1307c69f038c47deb302acb949893bd4899a5afb8d8d52900891_1280.jpg"
+          logoSrc="https://pixabay.com/get/g40d4882056584822c1d27ea280128f6b3dce2c1163052c4e6104a4dbb27a3ca0d6500bc13ecf64978e9a827f3c3711bdbdd1dc37bc731521157eabd3a5be35b0_1280.jpg"
           logoAlt="Heritage Properties"
           brandName="Heritage Properties"
           button={{
@@ -51,14 +51,14 @@ export default function Home() {
           buttons={[
             {
               text: "View Properties",
-              href: "properties"
+              href: "property"
             },
             {
               text: "Learn More",
               href: "about"
             }
           ]}
-          imageSrc="https://pixabay.com/get/g2baeccc86bf7f1fc9735a322a06ebf7538daeefb1aa897dce2a3bc49fee0ea5263ad2d8416d646cb87acf87118683d2d_1280.jpg"
+          imageSrc="https://pixabay.com/get/gd22d22077a557ca542ed8fff451a276280e67add17c0c50b2a78248214699caab6b066f44b27d980b0df30627ccf1ddf_1280.jpg"
           imageAlt="Luxury property development showcase"
           showDimOverlay={true}
         />
@@ -79,25 +79,25 @@ export default function Home() {
             {
               title: "Construction Management",
               description: "Full-service construction oversight ensuring quality, timeline, and budget compliance",
-              imageSrc: "https://pixabay.com/get/g296ec4f3db3605b027350e6f25797f40e9902f44d4e48856dfa59439347596ca0f47113e16e65e249f6e54d9413ab060e3135447fb27ad459cfbd99abaf99d1a_1280.jpg",
+              imageSrc: "https://pixabay.com/get/g3ea17a6bb7015cbba10e4d0f7b007ec2439083496f24f397e5ea68a14f7223c591af86634661cfb230d208c3d5c6a3189e3dd4b71ed2643cf311e2e5afadc3b2_1280.jpg",
               imageAlt: "Construction management"
             },
             {
               title: "Project Planning",
               description: "Strategic planning and design services to maximize property value and market appeal",
-              imageSrc: "https://pixabay.com/get/gd48011adf80029b47508270d2814458c2284590ba1f85d870e05a518aa8a4478ef2cfd48fe011f002a52bdcb8421cc6298a4369f7eab8df66c5c94b93cb11844_1280.jpg",
+              imageSrc: "https://pixabay.com/get/g80082359a73acfd072a65edb84f0d3f64158e54d86e96358fc225f15717df290d7deaff78b3b06f1cadef5ef1de923fd3d6eda04261013ef2a2e48d129872907_1280.jpg",
               imageAlt: "Project planning"
             },
             {
               title: "Investment Financing",
               description: "Flexible financing solutions and investment opportunities for all development stages",
-              imageSrc: "https://pixabay.com/get/g4ebaacf6e649c599b065377e6b3c077d03e67d36c6cc1bd7228153a776e5603811e4e756ff6464c7bf0391a80faa419083d329e31c7562dac4ecfc31e1c3aec3_1280.jpg",
+              imageSrc: "https://pixabay.com/get/gc15fd141c9f3e7897aa34de949996de7aabadae27c03f91227fb466b6dfc2e6a3d52e91e6c02a812427932001cf962d4c9adc7d69fa1a452755df9dd85c13cf1_1280.jpg",
               imageAlt: "Investment financing"
             },
             {
               title: "Property Management",
               description: "Comprehensive property management services to optimize returns and maintain value",
-              imageSrc: "https://pixabay.com/get/g68329814dbaef453101388c4a66d28e7b03ffe844ac9640b0da70978c1784bbebeb13c2ba577024c46a323353b67277644022b9ba534557200e4cf84974bdbca_1280.jpg",
+              imageSrc: "https://pixabay.com/get/g4e3ff7546a88487e4a8137644930b41ec3ec24edef27a360f0720deb7f35ea4a0f6f6d7d7e1038a59df2dbf4f489f2eb741dd885f5bb23629e7f96c01e4f7b66_1280.jpg",
               imageAlt: "Property management"
             }
           ]}
@@ -116,7 +116,7 @@ export default function Home() {
               id: "1",
               name: "Heritage Residences",
               price: "From $850,000",
-              imageSrc: "https://pixabay.com/get/g06e4f67c971acb9f0fbb1fd766cb0af3851abf015d0db0c9c94523cadca8062548314b91dcbb1fb644eaadb46509a25e14d4878bb03de88f75912ec3eb864da0_1280.jpg",
+              imageSrc: "https://pixabay.com/get/g2d8f59626e44e5445e9d641994dd5d9d1663c25d4cb08f1662b679f6393b787736b80b7231d890c539c6f3a0c75f52d62d2a93c816ed653e62c8a578b26d5c59_1280.jpg",
               imageAlt: "Heritage Residences luxury apartments",
               onProductClick: () => console.log('View Heritage Residences')
             },
@@ -124,7 +124,7 @@ export default function Home() {
               id: "2",
               name: "Commerce Tower",
               price: "From $1,200,000",
-              imageSrc: "https://pixabay.com/get/g34d0604469f419eb10fad490427b993e41d48122bc95d1fc2a9f6d79437cdc6e7e8ad8fde7c67dcee41c95d7103715595e33bde9af4f610ce152a279efb0345a_1280.jpg",
+              imageSrc: "https://pixabay.com/get/g7fe5f8b12708e94b5356f8c57a8dd1f70de0ae0d315588ef5fd7ab84d03b1656bee0c7b96223afdcb7aea57a5d9598eb6a27427bec8eedeaef8d02f45b60713a_1280.jpg",
               imageAlt: "Commerce Tower office building",
               onProductClick: () => console.log('View Commerce Tower')
             },
@@ -132,7 +132,7 @@ export default function Home() {
               id: "3",
               name: "Garden Townhomes",
               price: "From $675,000",
-              imageSrc: "https://pixabay.com/get/g4b089af2e19c95a2b66be3f186788988c122f540bd604cdeff8c782fcbcbf4187d466c0ef122091e53022fe55ba694f5ffac2c4fa2c7872383465f9681da2c1f_1280.jpg",
+              imageSrc: "https://pixabay.com/get/g22d46192a040714042b1108ca98588166fc0b7b4e8022ba06bb4467955423165a96231c557fb16c127397572e09669c868d3846cb698c81dfac2f36d75c97a6f_1280.jpg",
               imageAlt: "Garden Townhomes development",
               onProductClick: () => console.log('View Garden Townhomes')
             }
@@ -264,7 +264,7 @@ export default function Home() {
               role: "CEO",
               company: "Richardson Investments",
               rating: 5,
-              imageSrc: "https://pixabay.com/get/g8f791ce0a2ef49f7582d172782b58a403522187c830eaa8052c23e24052c9da16d936052ea5606e06341ccfd6d64b8b494ae295b8a3d7f27b2f79b3c576745fb_1280.jpg",
+              imageSrc: "https://pixabay.com/get/g87d3dd1ef9f5bcd56f262d3cda2686ca6a1cb89caadaabf080b6db918b37aaa64b07fb71d470ea96acbf4c50e2b1a49c4fc39e2ff119ed5b0b15090480e3104c_1280.jpg",
               imageAlt: "Michael Richardson"
             },
             {
@@ -273,7 +273,7 @@ export default function Home() {
               role: "Portfolio Manager",
               company: "Capital Group",
               rating: 5,
-              imageSrc: "https://pixabay.com/get/gd7c30643738b495f35873759d6caa9039c1c97e6ce2d6478116687cafd75b97c3c8ad382fec70953289cccc2ae2b63049ccaa602fcb6dc33e897de0caf53d9f6_1280.jpg",
+              imageSrc: "https://pixabay.com/get/g24c908944370e924ea46ea1b345bb09b1a5b7332445450317ff83a17a98dc5f2c7e5af3d15cdfa6170a98cf54d8730be5c926e5ae788c26af4a1183d9628af14_1280.jpg",
               imageAlt: "Sarah Thompson"
             },
             {
@@ -282,7 +282,7 @@ export default function Home() {
               role: "Real Estate Investor",
               company: "Chen Properties",
               rating: 5,
-              imageSrc: "https://pixabay.com/get/g6a5deb75c1b02d32ad867d155f6d2465df110dfaba32254486afe765bd63ad51d0e1b634f9d02586d9c2356df53912718a7a9cd923e9dd00dd6371ca6afbb5c7_1280.jpg",
+              imageSrc: "https://pixabay.com/get/gd06fafa81c1b5616dd99a04dc6b6f6d9e5ec405e55aecaa6e64e61a1abb8350789da8102da84c8fd14db48ef0f8b338437088c38c2bcf144b667be872e1f2d53_1280.jpg",
               imageAlt: "David Chen"
             },
             {
@@ -291,7 +291,7 @@ export default function Home() {
               role: "Development Partner",
               company: "Williams & Associates",
               rating: 5,
-              imageSrc: "https://pixabay.com/get/g52eca8b00a48e58183a973fbff3f5643101edf07bb2eecc5250734b7d3fb18170915db85ce7281d1a9cfc6665bb70dc7718c7ac2c24a17816aa303c60fae3199_1280.jpg",
+              imageSrc: "https://pixabay.com/get/g85e647e20da9ce70eb4462464629ca52977b1e90664f80e75ee6ae5d047e32d6f2767c4be5d353b386ddf3a0df56cd0ae2da223b26cb28e89cfd599334a97d03_1280.jpg",
               imageAlt: "Jennifer Williams"
             }
           ]}
@@ -403,7 +403,7 @@ export default function Home() {
               ]
             }
           ]}
-          logoSrc="https://pixabay.com/get/g7df41429df56b066e902d66a015d5ac317001d85ddcd82898aa6b48cc8d28be9798ff5c64d0d1307c69f038c47deb302acb949893bd4899a5afb8d8d52900891_1280.jpg"
+          logoSrc="https://pixabay.com/get/g40d4882056584822c1d27ea280128f6b3dce2c1163052c4e6104a4dbb27a3ca0d6500bc13ecf64978e9a827f3c3711bdbdd1dc37bc731521157eabd3a5be35b0_1280.jpg"
           logoText="Heritage Properties"
           copyrightText="© 2025 | Heritage Properties"
           onPrivacyClick={() => console.log('Privacy policy clicked')}

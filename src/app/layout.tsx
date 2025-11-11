@@ -89,7 +89,7 @@ export const metadata: Metadata = {
     url: "https://heritageproperties.com",
     siteName: "Heritage Properties",
     images: [{
-      url: "https://pixabay.com/get/g2baeccc86bf7f1fc9735a322a06ebf7538daeefb1aa897dce2a3bc49fee0ea5263ad2d8416d646cb87acf87118683d2d_1280.jpg",
+      url: "https://pixabay.com/get/gd22d22077a557ca542ed8fff451a276280e67add17c0c50b2a78248214699caab6b066f44b27d980b0df30627ccf1ddf_1280.jpg",
       alt: "Heritage Properties luxury development showcase"
     }],
     type: "website"
@@ -98,7 +98,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Heritage Properties - Premium Real Estate Development",
     description: "Leading real estate development company specializing in luxury residential and commercial properties.",
-    images: ["https://pixabay.com/get/g2baeccc86bf7f1fc9735a322a06ebf7538daeefb1aa897dce2a3bc49fee0ea5263ad2d8416d646cb87acf87118683d2d_1280.jpg"]
+    images: ["https://pixabay.com/get/gd22d22077a557ca542ed8fff451a276280e67add17c0c50b2a78248214699caab6b066f44b27d980b0df30627ccf1ddf_1280.jpg"]
   },
   robots: {
     index: true,
